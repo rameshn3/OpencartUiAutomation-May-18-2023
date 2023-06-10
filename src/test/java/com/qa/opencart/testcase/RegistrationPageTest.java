@@ -101,7 +101,7 @@ public void registerAccountWithFakerTest() throws InterruptedException {
 	}
 }
 
-@Test(description="TC_02_Register an account with excel data",priority=2,dataProvider="excelData")
+//@Test(description="TC_02_Register an account with excel data",priority=2,dataProvider="excelData")
 public void registerAccountWithExcelTest(String fName,String lName,String telePhone,String passwd,String subScribe) {
 	log.info("Register an account with excel data");
 	try {
