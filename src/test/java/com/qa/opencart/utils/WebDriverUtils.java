@@ -1271,7 +1271,10 @@ public class WebDriverUtils{
 		    }
 
 		}	
-		
+		/**
+		 * This method wait for the page load
+		 * @param timeOut
+		 */
 		public void waitForPageLoad(int timeOut) {
 
 			long endTime = System.currentTimeMillis() + timeOut;
