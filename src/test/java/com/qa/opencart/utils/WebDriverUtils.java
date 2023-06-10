@@ -155,7 +155,9 @@ public class WebDriverUtils{
     	flashElement(element);
 	return element;
     }
-
+/**
+*This method will highlight 
+*/
     
     public void flashElement(WebElement element) throws InterruptedException {
       
