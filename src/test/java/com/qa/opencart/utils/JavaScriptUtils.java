@@ -9,7 +9,9 @@ public class JavaScriptUtils {
 	public JavaScriptUtils(WebDriver driver) {
 		this.driver = driver;
 	}
-
+	/**
+	*This method will highlight the elements
+	*/
 	public void flash(WebElement element) throws InterruptedException {
 		JavascriptExecutor js = (JavascriptExecutor) driver; // downcasting
 
