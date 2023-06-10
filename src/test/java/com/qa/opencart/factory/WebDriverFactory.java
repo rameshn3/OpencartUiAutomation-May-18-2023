@@ -325,7 +325,10 @@ public class WebDriverFactory {
 		String generatedString2 = RandomStringUtils.randomNumeric(10);
 		return (generatedString2);
 	}
-
+/**
+ * generate the random email
+ * 
+ */
 	public static String randomAlphaNumeric() {
 		String st = RandomStringUtils.randomAlphabetic(4);
 		String num = RandomStringUtils.randomNumeric(3);
